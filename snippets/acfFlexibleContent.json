@@ -1,0 +1,8 @@
+{
+    "ACF Flexible Content": {
+      "prefix": "!FlexContent",
+      "body": [
+        "->addFlexibleContent('layout_name')"
+      ]
+    }
+  }

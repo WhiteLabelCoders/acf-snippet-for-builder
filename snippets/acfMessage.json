@@ -1,0 +1,21 @@
+{
+  "ACF Message Field" : {
+    "prefix": "!Message",
+    "body": [
+      "->addMessage('message_field', 'Message', [",
+        "\t'label' => 'Message Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+            "\t\t'width' => '',",
+            "\t\t'class' => '',",
+            "\t'id' => '',",
+        "\t],",
+        "\t'message' => '',",
+        "\t'new_lines' => 'wpautop',",
+        "\t'esc_html' => 0,",
+     " ]);"
+    ]
+  }
+}

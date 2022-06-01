@@ -1,0 +1,8 @@
+{
+  "ACF Set Location and" : {
+    "prefix": "!setLocationAnd",
+    "body": [
+      "->and('post_type', '!=', '10')"
+    ]
+  }
+}

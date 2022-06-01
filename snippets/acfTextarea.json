@@ -1,0 +1,22 @@
+{
+  "ACF Textarea Field" : {
+    "prefix": "!TextArea",
+    "body": [
+      "->addTextarea('textarea_field', [",
+        "\t'label' => 'Textarea Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'default_value' => '',",
+        "\t'placeholder' => '',",
+        "\t'maxlength' => '',",
+        "\t'rows' => '',",
+        "\t'new_lines' => '',",
+      "]);"
+    ]
+  }
+}

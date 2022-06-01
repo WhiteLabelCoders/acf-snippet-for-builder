@@ -1,0 +1,8 @@
+{
+  "ACF Get Location ": {
+    "prefix": "!getLocation",
+    "body": [
+      "->getLocation()"
+    ]
+  }
+}

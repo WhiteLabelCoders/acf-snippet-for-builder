@@ -1,0 +1,23 @@
+{
+  "ACF Wysiwyg Field" : {
+    "prefix": "!Wysiwyg",
+    "body": [
+      "->addWysiwyg('wysiwyg_field', [",
+        "\t'label' => 'WYSIWYG Field'",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'default_value' => '',",
+        "\t'tabs' => 'all',",
+        "\t'toolbar' => 'full',",
+        "\t'media_upload' => 1,",
+        "\t'delay' => 0,",
+      "]);"
+    ]
+  }
+}

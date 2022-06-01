@@ -1,8 +1,14 @@
 {
     "name": "acfbuildersnippets",
-    "displayName": "acfbuildersnippets",
+    "displayName": "ACF Snippet for Builder",
     "description": "ACF builder snippet",
-    "version": "0.0.1",
+    "author": {
+       "name": "Rafał Chrzan",
+       "email": "rchrzan@whitelabelcoders.com",
+       "url": "https://github.com/r-chrzan"
+    },
+    "version": "1.0.0",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -13,7 +19,147 @@
         "snippets": [
             {
                 "language": "php",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/acfText.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfTextarea.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfNumber.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfEmail.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfUrl.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfPassword.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfWysiwyg.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfOembed.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfImage.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfFile.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfGallery.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfSelect.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfCheckbox.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfRadio.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfTrueFalse.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfLink.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfPostObject.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfPageLink.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfRelationship.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfTaxonomy.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfUser.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfGoogleMap.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfDatePicker.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfTimePicker.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfDateTimePicker.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfColorPicker.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfMessage.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfAddTab.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfAnd.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfFlexibleContent.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfGetLocation.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfLayout.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfOr.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfRepeater.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfRepeaterInTab.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfSetLocation.json"
             }
         ]
     }

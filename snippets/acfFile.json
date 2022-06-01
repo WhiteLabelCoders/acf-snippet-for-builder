@@ -1,0 +1,23 @@
+{
+  "ACF File Field" : {
+    "prefix": "!File",
+    "body": [
+      "->addFile('file_Field', [",
+        "\t'label' => 'File Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'return_format' => 'array',",
+        "\t'library' => 'all',",
+        "\t'min_size' => '',",
+        "\t'max_size' => '',",
+        "\t'mime_types' => '',",
+      "]);"
+    ]
+  }
+}

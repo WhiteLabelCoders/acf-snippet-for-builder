@@ -1,0 +1,23 @@
+{
+  "ACF TrueFalse Field" : {
+    "prefix": "!TrueFalse",
+    "body": [
+      "->addTrueFalse('truefalse_field', [",
+        "\t'label' => 'True / False Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'message' => '',",
+        "\t'default_value' => 0,",
+        "\t'ui' => 0,",
+        "\t'ui_on_text' => '',",
+        "\t'ui_off_text' => '',",
+      "]);"
+    ]
+  }
+}

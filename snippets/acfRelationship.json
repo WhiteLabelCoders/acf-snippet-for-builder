@@ -1,0 +1,29 @@
+{
+  "ACF Relationship Field" : {
+    "prefix": "!Relationship",
+    "body": [
+      "->addRelationship('relationship_field', [",
+        "\t'label' => 'Relationship Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'post_type' => [],",
+        "\t'taxonomy' => [],",
+        "\t'filters' => [",
+          "\t\t0 => 'search',",
+          "\t\t1 => 'post_type',",
+          "\t\t2 => 'taxonomy',",
+        "\t],",
+        "\t'elements' => '',",
+        "\t'min' => '',",
+        "\t'max' => '',",
+        "\t'return_format' => 'object',",
+      "]);"
+    ]
+  }
+}

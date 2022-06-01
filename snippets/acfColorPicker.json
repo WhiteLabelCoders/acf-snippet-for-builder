@@ -1,0 +1,19 @@
+{
+  "ACF Color Picker Field" : {
+    "prefix": "!ColorPicker",
+    "body": [
+      "->addColorPicker('color_picker_field', [",
+        "\t'label' => 'Color Picker Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+            "\t\t'width' => '',",
+            "\t\t'class' => '',",
+            "\t'id' => '',",
+        "\t],",
+        "\t'default_value' => '',",
+     " ]);"
+    ]
+  }
+}

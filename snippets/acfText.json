@@ -1,0 +1,22 @@
+{
+  "ACF Text Field" : {
+    "prefix": "!Text",
+    "body": [
+      "->addText('text_field', [",
+        "\t'label' => 'Text Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'default_value' => '',",
+        "\t'placeholder' => '',",
+        "\t'prepend' => '',",
+        "\t'append' => '',",
+        "\t'maxlength' => '',",
+      "]);"
+    ]
+  }
+}

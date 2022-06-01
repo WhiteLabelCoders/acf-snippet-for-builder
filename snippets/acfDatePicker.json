@@ -1,0 +1,21 @@
+{
+  "ACF Date Picker Field" : {
+    "prefix": "!DatePicker",
+    "body": [
+      "->addDatePicker('date_picker_field', [",
+        "\t'label' => 'Date Picker Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+            "\t\t'width' => '',",
+            "\t\t'class' => '',",
+            "\t'id' => '',",
+        "\t],",
+        "\t'display_format' => 'd/m/Y',",
+        "\t'return_format' => 'd/m/Y',",
+        "\t'first_day' => 1,",
+     " ]);"
+    ]
+  }
+}

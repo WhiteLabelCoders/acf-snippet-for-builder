@@ -1,0 +1,8 @@
+{
+  "ACF Set Location or": {
+    "prefix": "!setLocationOr",
+    "body": [
+      "->or('post_type', '==', 'page')"
+    ]
+  }
+}

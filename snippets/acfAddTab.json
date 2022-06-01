@@ -1,0 +1,8 @@
+{
+  "ACF Add Tab": {
+    "prefix": "!Tab",
+    "body": [
+      "->addTab('Tab name')"
+    ]
+  }
+}

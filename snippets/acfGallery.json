@@ -1,0 +1,29 @@
+{
+  "ACF Gallery Field" : {
+    "prefix": "!Gallery",
+    "body": [
+      "->addGallery('gallery_field', [",
+        "\t'label' => 'Gallery FIeld',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'min' => '',",
+        "\t'max' => '',",
+        "\t'insert' => 'append',",
+        "\t'library' => 'all',",
+        "\t'min_width' => '',",
+        "\t'min_height' => '',",
+        "\t'min_size' => '',",
+        "\t'max_width' => '',",
+        "\t'max_height' => '',",
+        "\t'max_size' => '',",
+        "\t'mime_types' => '',",
+      "]);"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ACF Layout": {
+    "prefix": "!Layout",
+    "body": [
+      "->addLayout('layout_name')"
+    ]
+  }
+}

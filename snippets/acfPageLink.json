@@ -1,0 +1,24 @@
+{
+  "ACF Page Link Field" : {
+    "prefix": "!PageLink",
+    "body": [
+      "->addPageLink('page_link_field', [",
+        "\t'label' => 'Page Link Field',",
+        "\t'type' => 'page_link',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'post_type' => [],",
+        "\t'taxonomy' => [],",
+        "\t'allow_null' => 0,",
+        "\t'allow_archives' => 1,",
+        "\t'multiple' => 0,",
+      "]);"
+    ]
+  }
+}

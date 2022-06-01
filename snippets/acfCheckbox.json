@@ -1,0 +1,25 @@
+{
+  "ACF Checkbox Field" : {
+    "prefix": "!Checkbox",
+    "body": [
+      "->addCheckbox('checkbox_field', [",
+        "\t'label' => 'Checkbox Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'choices' => [],",
+        "\t'allow_custom' => 0,",
+        "\t'save_custom' => 0,",
+        "\t'default_value' => [],",
+        "\t'layout' => 'vertical',",
+        "\t'toggle' => 0,",
+        "\t'return_format' => 'value',",
+      "]);"
+    ]
+  }
+}

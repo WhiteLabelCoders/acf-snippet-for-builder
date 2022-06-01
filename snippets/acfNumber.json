@@ -1,0 +1,25 @@
+{
+  "ACF Number Field" : {
+    "prefix": "!Number",
+    "body": [
+      "->addNumber('number_Field', [",
+        "\t'label' => 'Number Field',",
+        "\t'instructions' => '',",
+        "\t'required' => 0,",
+        "\t'conditional_logic' => 0,",
+        "\t'wrapper' => [",
+          "\t\t'width' => '',",
+          "\t\t'class' => '',",
+          "\t\t'id' => '',",
+        "\t],",
+        "\t'default_value' => '',",
+        "\t'placeholder' => '',",
+        "\t'prepend' => '',",
+        "\t'append' => '',",
+        "\t'min' => '',",
+        "\t'max' => '',",
+        "\t'step' => '',",
+      "]);"
+    ]
+  }
+}
