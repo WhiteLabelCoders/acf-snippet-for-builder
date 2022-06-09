@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF File Field" : {
+    "prefix": "!File",
+    "body": [
+      "->addFile('file_Field', ['label' => 'File Field])"
+    ]
+  },
   "ACF File Field" : {
     "prefix": "!File",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'File Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

@@ -1,0 +1,9 @@
+{
+  "ACF Group": {
+    "prefix": "!Group",
+    "body": [
+      "->addGroup('group_name',['label' => 'Group label'])",
+      "->endGroup()"
+    ]
+  }
+}

@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Select Field" : {
+    "prefix": "!Select",
+    "body": [
+      "->addSelect('select_field', ['label' => 'Select Field'])"
+    ]
+  },
   "ACF Select Field" : {
     "prefix": "!Select",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Select Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Textarea Field" : {
+    "prefix": "!TextArea",
+    "body": [
+      "->addTextarea('textarea_field', ['label' => 'Textarea Field'])"
+    ]
+  },
   "ACF Textarea Field" : {
     "prefix": "!TextArea",
     "body": [

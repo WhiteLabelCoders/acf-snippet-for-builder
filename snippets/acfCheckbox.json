@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Checkbox Field" : {
+    "prefix": "!Checkbox",
+    "body": [
+      "->addCheckbox('checkbox_field', ['label' => 'Checkbox Field'])"
+    ]
+  },
   "ACF Checkbox Field" : {
     "prefix": "!Checkbox",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Checkbox Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

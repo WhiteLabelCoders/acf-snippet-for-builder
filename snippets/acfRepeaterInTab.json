@@ -2,7 +2,8 @@
   "ACF Repeater in Tab": {
     "prefix": "!RepeaterInTab",
     "body": [
-      "->addRepeater('repeater_field_name', ['layout' => 'block'])"
+      "->addRepeater('repeater_field_name', ['layout' => 'block'])",
+      "->endRepeater()"
     ]
   }
 }

@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Link Field" : {
+    "prefix": "!Link",
+    "body": [
+      "->addLink('link_field', ['label' => 'Link Field'])"
+    ]
+  },
   "ACF Link Field" : {
     "prefix": "!Link",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Link Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

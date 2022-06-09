@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Wysiwyg Field" : {
+    "prefix": "!Wysiwyg",
+    "body": [
+      "->addWysiwyg('wysiwyg_field', ['label' => 'WYSIWYG Field'])"
+    ]
+  },
   "ACF Wysiwyg Field" : {
     "prefix": "!Wysiwyg",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'WYSIWYG Field'",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

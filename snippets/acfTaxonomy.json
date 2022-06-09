@@ -1,12 +1,18 @@
 {
-  "ACF Relationship Field" : {
+  "SHORT: ACF Taxonomy Field" : {
+    "prefix": "!Relationship",
+    "body": [
+      "->addTaxonomy('taxonomy_field', ['label' => 'Taxonomy Field'])"
+    ]
+  },
+  "ACF Taxonomy Field" : {
     "prefix": "!Relationship",
     "body": [
       "->addTaxonomy('taxonomy_field', [",
         "\t'label' => 'Taxonomy Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",

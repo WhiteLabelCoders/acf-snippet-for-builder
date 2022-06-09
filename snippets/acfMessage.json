@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Message Field" : {
+    "prefix": "!Message",
+    "body": [
+      "->addMessage('message_field', 'Message', ['label' => 'Message Field'])"
+    ]
+  },
   "ACF Message Field" : {
     "prefix": "!Message",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Message Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",

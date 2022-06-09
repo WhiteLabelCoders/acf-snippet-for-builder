@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Oembed Field" : {
+    "prefix": "!Oembed",
+    "body": [
+      "->addOembed('oembed_field', ['label' => 'Oembed Field'])"
+    ]
+  },
   "ACF Oembed Field" : {
     "prefix": "!Oembed",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Oembed Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

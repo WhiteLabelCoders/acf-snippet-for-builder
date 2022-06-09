@@ -2,7 +2,8 @@
     "ACF Flexible Content": {
       "prefix": "!FlexContent",
       "body": [
-        "->addFlexibleContent('layout_name')"
+        "->addFlexibleContent('layout_name')",
+        "->endFlexibleContent()"
       ]
     }
   }

@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Time Picker Field" : {
+    "prefix": "!TimePicker",
+    "body": [
+      "->addTimePicker('time_picker_field', ['label' => 'Time Picker Field'])"
+    ]
+  },
   "ACF Time Picker Field" : {
     "prefix": "!TimePicker",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Time Picker Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",

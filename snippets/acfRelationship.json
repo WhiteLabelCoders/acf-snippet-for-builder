@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Relationship Field" : {
+    "prefix": "!Relationship",
+    "body": [
+      "->addRelationship('relationship_field', ['label' => 'Relationship Field'])"
+    ]
+  },
   "ACF Relationship Field" : {
     "prefix": "!Relationship",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Relationship Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

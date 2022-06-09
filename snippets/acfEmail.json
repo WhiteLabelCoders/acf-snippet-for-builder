@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Email Field" : {
+    "prefix": "!Email",
+    "body": [
+      "->addEmail('email_field', ['label' => 'Email Field'])"
+    ]
+  },
   "ACF Email Field" : {
     "prefix": "!Email",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Email Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

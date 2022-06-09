@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF User Field" : {
+    "prefix": "!User",
+    "body": [
+      "->addUser('user_field', ['label' => 'User Field'])"
+    ]
+  },
   "ACF User Field" : {
     "prefix": "!User",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'User Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",
@@ -15,7 +21,7 @@
         "\t'role' => '',",
         "\t'allow_null' => 0,",
         "\t'multiple' => 0,",
-     " ]);"
+     "]);"
     ]
   }
 }

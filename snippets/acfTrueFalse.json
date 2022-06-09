@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF TrueFalse Field" : {
+    "prefix": "!TrueFalse",
+    "body": [
+      "->addTrueFalse('truefalse_field', ['label' => 'True / False Field'])"
+    ]
+  },
   "ACF TrueFalse Field" : {
     "prefix": "!TrueFalse",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'True / False Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

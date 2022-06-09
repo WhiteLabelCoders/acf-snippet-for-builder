@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Date Time Picker Field" : {
+    "prefix": "!DateTimePicker",
+    "body": [
+      "->addDateTimePicker('date_time_picker_field', ['label' => 'Date Time Picker Field'])"
+    ]
+  },
   "ACF Date Time Picker Field" : {
     "prefix": "!DateTimePicker",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Date Time Picker Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",

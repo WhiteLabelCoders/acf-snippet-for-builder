@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Text Field" : {
+    "prefix": "!Text",
+    "body": [
+      "->addText('text_field', ['label' => 'Text Field'])"
+    ]
+  },
   "ACF Text Field" : {
     "prefix": "!Text",
     "body": [

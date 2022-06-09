@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Google Map Field" : {
+    "prefix": "!GoogleMap",
+    "body": [
+      "->addGoogleMap('google_map_field', ['label' => 'Google Map Field'])"
+    ]
+  },
   "ACF Google Map Field" : {
     "prefix": "!GoogleMap",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Google Map Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
             "\t\t'width' => '',",
             "\t\t'class' => '',",

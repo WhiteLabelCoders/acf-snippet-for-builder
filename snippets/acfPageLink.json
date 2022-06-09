@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Page Link Field" : {
+    "prefix": "!PageLink",
+    "body": [
+      "->addPageLink('page_link_field', ['label' => 'Page Link Field'])"
+    ]
+  },
   "ACF Page Link Field" : {
     "prefix": "!PageLink",
     "body": [
@@ -7,7 +13,7 @@
         "\t'type' => 'page_link',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

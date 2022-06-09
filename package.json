@@ -160,6 +160,10 @@
             {
                 "language": "php",
                 "path": "./snippets/acfSetLocation.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/acfGroup.json"
             }
         ]
     }

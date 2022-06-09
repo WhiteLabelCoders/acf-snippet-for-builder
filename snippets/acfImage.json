@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Image Field" : {
+    "prefix": "!Image",
+    "body": [
+      "->addImage('image_field', ['label' => 'Image FIeld'])"
+    ]
+  },
   "ACF Image Field" : {
     "prefix": "!Image",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Image FIeld',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

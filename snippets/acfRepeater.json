@@ -2,7 +2,8 @@
   "ACF Repeater": {
     "prefix": "!Repeater",
     "body": [
-      "->addRepeater('repeater_field_name')"
+      "->addRepeater('repeater_field_name')",
+      "->endRepeater()"
     ]
   }
 }

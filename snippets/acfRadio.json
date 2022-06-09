@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Radio Field" : {
+    "prefix": "!Radio",
+    "body": [
+      "->addRadio('radio_field', ['label' => 'Radio Field'])"
+    ]
+  },
   "ACF Radio Field" : {
     "prefix": "!Radio",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Radio Field',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",

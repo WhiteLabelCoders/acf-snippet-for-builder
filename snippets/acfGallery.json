@@ -1,4 +1,10 @@
 {
+  "SHORT: ACF Gallery Field" : {
+    "prefix": "!Gallery",
+    "body": [
+      "->addGallery('gallery_field', ['label' => 'Gallery FIeld'])"
+    ]
+  },
   "ACF Gallery Field" : {
     "prefix": "!Gallery",
     "body": [
@@ -6,7 +12,7 @@
         "\t'label' => 'Gallery FIeld',",
         "\t'instructions' => '',",
         "\t'required' => 0,",
-        "\t'conditional_logic' => 0,",
+        "\t'conditional_logic' => [],",
         "\t'wrapper' => [",
           "\t\t'width' => '',",
           "\t\t'class' => '',",
